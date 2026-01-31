@@ -1,2 +1,6 @@
-# Playwright_usingPython
-Playwright automation using Python, including UI, API testing, and advanced features
+🎭 Playwright with Python
+
+🚀 **Modern, Fast & Reliable Test Automation using Playwright and Python**  
+🌐 Cross-Browser • ⚡ Parallel Execution • 🧪 UI + API Testing
+
+
