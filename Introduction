@@ -1,0 +1,186 @@
+# 🎭 Playwright – Introduction
+
+## 📌 What is Playwright?
+
+Playwright is an **open-source test automation framework developed by Microsoft** for automating modern web applications.  
+It is mainly used for **end-to-end (E2E) testing**, ensuring that applications work correctly from the user’s perspective.
+
+Playwright allows testers to **automate browsers, validate UI behavior, and test backend APIs** using a single framework.
+
+It was **released in 2020** and has gained popularity due to its **speed, reliability, and built-in modern features**.
+
+---
+
+## 🎯 Why Playwright?
+
+Modern web applications use **dynamic content, single-page architectures (SPA), Shadow DOM, and asynchronous behavior**.  
+Traditional tools often struggle with these challenges.
+
+Playwright is designed to handle:
+- Dynamic web elements
+- Asynchronous page behavior
+- Complex UI components
+- Modern JavaScript frameworks like React, Angular, and Vue
+
+---
+
+## 🧪 What Can We Test Using Playwright?
+
+Playwright can be used to test:
+
+- 🌐 **Web UI (End-to-End Testing)**
+- 🔗 **REST API Testing**
+- 🔁 **Regression Testing**
+- ⚡ **Smoke & Sanity Testing**
+- 📱 **Mobile Web Applications**
+- 🌍 **Cross-Browser Compatibility**
+
+---
+
+## 🌐 Supported Browsers
+
+Playwright supports multiple browsers out of the box:
+
+- **Chromium** (Chrome, Edge)
+- **Firefox**
+- **WebKit** (Safari)
+
+This helps ensure consistent application behavior across different browsers.
+
+---
+
+## 💻 Cross-Platform Support
+
+Playwright works seamlessly on:
+- Windows
+- macOS
+- Linux
+
+The same test scripts can be executed across all platforms without modification.
+
+---
+
+## 🧑‍💻 Cross-Language Support
+
+Playwright supports multiple programming languages:
+
+- Python
+- Java
+- JavaScript / TypeScript
+- .NET (C#)
+
+This allows teams to choose a language that best fits their project needs.
+
+---
+
+## 📱 Mobile Web Testing
+
+Playwright supports **mobile web testing** using device emulation.  
+It can simulate mobile devices by setting:
+- Screen size
+- User agent
+- Touch interactions
+
+⚠️ Playwright also provides **experimental support for Android automation**.
+
+---
+
+## 🔗 API Testing in Playwright
+
+Playwright includes **built-in API testing support**, allowing testers to:
+
+- Send HTTP requests (GET, POST, PUT, DELETE)
+- Validate response status codes and payloads
+- Perform backend validation before or after UI actions
+
+This enables **end-to-end testing combining UI and API** in a single test flow.
+
+---
+
+## ⏳ Automatic Waiting (Auto-Wait)
+
+One of Playwright’s strongest features is **automatic waiting**.
+
+Playwright automatically waits for:
+- Elements to be visible
+- Elements to be enabled
+- Network calls to complete
+- Page navigation to finish
+
+This **reduces flaky tests** and removes the need for manual waits.
+
+---
+
+## 🧩 Handling Modern Web Elements
+
+Playwright easily handles complex elements such as:
+
+- Shadow DOM elements
+- Dynamic locators
+- Iframes
+- Single Page Applications (SPA)
+
+This makes it suitable for testing modern web applications.
+
+---
+
+## ⚡ Parallel Execution
+
+Playwright supports **parallel test execution**, allowing tests to run simultaneously across:
+- Multiple browsers
+- Multiple test files
+
+This significantly reduces overall execution time.
+
+---
+
+## 📊 Reporting and Debugging
+
+Playwright provides powerful debugging and reporting features:
+
+- HTML, JSON, and JUnit reports
+- Screenshot capture on failure
+- Video recording of test execution
+- Detailed logs for troubleshooting
+
+It also supports **third-party reporting tools** such as Allure.
+
+---
+
+## 🧠 Advanced Tools in Playwright
+
+### 🔍 Playwright Inspector
+Helps debug tests by showing:
+- Click actions
+- Locator validation
+- Real-time browser interaction
+
+### 📝 Code Generation (Codegen)
+Records user actions and automatically generates test scripts in supported languages.
+
+### 🎥 Trace Viewer
+Captures:
+- Screenshots
+- Videos
+- Logs
+- Execution steps
+
+This helps in analyzing failures and flaky tests effectively.
+
+---
+
+## 🎯 When to Use Playwright?
+
+Playwright is ideal when:
+- Testing modern web applications
+- Cross-browser testing is required
+- UI and API testing need to be combined
+- Fast and reliable automation is needed
+- Debugging and traceability are important
+
+---
+
+## 📌 Summary
+
+Playwright is a **powerful, modern, and reliable automation framework** designed for testing today’s web applications.  
+With built-in support for **auto-waiting, API testing, cross-browser execution, and advanced debugging tools**, Playwright simplifies test automation and improves test stability.
