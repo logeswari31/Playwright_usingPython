@@ -5,3 +5,93 @@ It is **open-source** and **platform-independent**, meaning Python programs can 
 
 Python is known for its **simple syntax, readability, and ease of learning**, making it one of the most popular programming languages today.
 
+---
+
+### 📌 What Is Indentation?
+
+Indentation refers to the **spaces at the beginning of a line of code**.
+
+✔ Indentation is **mandatory in Python**  
+✔ Standard indentation is **4 spaces**  
+✔ All statements inside a block must have the **same indentation level**
+
+### 🟢 Example: Correct Indentation
+
+```python
+if True:
+    print("This line is inside the if block")
+    print("Python uses indentation")
+
+print("This line is outside the if block")
+
+In the above example:
+
+The first two print statements belong to the if block
+The last print statement is outside the block
+
+### 🔴 Example: Incorrect Indentation
+if True:
+print("This will cause an error")
+
+❌ This code will raise an IndentationError because the print statement is not properly indented.
+
+---
+
+### 📌 Where Is Python Used?
+
+Python is widely used in many areas, including:
+
+- 🌐 Web development  
+- 🤖 Automation testing (Selenium, Playwright)  
+- 📊 Data analysis & data science  
+- 🧠 Machine learning & AI  
+- 🧪 API testing  
+- 🖥️ Scripting & task automation  
+
+---
+
+## 💬 Comments in Python
+
+Comments are **non-executable lines of code**.  
+Python **ignores comments during runtime**, so they do not affect program execution.
+
+Comments are mainly used to:
+- Explain the code  
+- Improve readability  
+- Temporarily disable code during testing or debugging  
+
+### 🟢 Single-Line Comment
+
+Single-line comments start with the `#` symbol.
+
+```python
+# This is a single-line comment
+print("Welcome to Python!")
+
+eg: print("Welcome to Python!")  # Prints a greeting message
+
+### 🟢 Multi-Line Comment (Common Practice)
+
+Python does not have a dedicated multi-line comment syntax.
+However, triple quotes are commonly used to write multi-line comments or documentation.
+
+**Using single quotes ('''):**
+
+'''
+This is a multi-line comment
+Python will ignore this during execution
+'''
+print("Welcome to Python!")
+
+**Using double quotes ("""):**
+
+"""
+This is another example
+of a multi-line comment
+"""
+print("Welcome to Python!")
+
+
+
+
+---
