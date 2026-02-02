@@ -91,7 +91,4 @@ of a multi-line comment
 """
 print("Welcome to Python!")
 
-
-
-
 ---
